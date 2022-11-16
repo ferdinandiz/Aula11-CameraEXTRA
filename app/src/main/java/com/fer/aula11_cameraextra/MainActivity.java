@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
     private final CameraDevice.StateCallback stateCallback = new CameraDevice.StateCallback() {
         @Override
         public void onOpened(CameraDevice camera) {
-            //é chamado quando a câmera está aberta
+            //é chamado quando a câmera está aberta!
             cameraDevice = camera;
             createCameraPreview();
         }
